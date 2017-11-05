@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="290.0" prefWidth="320" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="parsingdata.MainController">
+   <children>
+      <Label layoutX="64.0" layoutY="14.0" text="DATA PEMINJAM BUKU">
+         <font>
+            <Font name="Roboto Black" size="16.0" />
+         </font>
+      </Label>
+      <Separator prefWidth="200.0" />
+      <JFXTextField fx:id="nama" focusColor="#37a7de" layoutX="52.0" layoutY="62.0" maxWidth="200.0" minWidth="132.0" prefHeight="31.0" prefWidth="200.0" promptText="Nama" />
+      <JFXTextField fx:id="kelas" focusColor="#37a7de" layoutX="52.0" layoutY="93.0" maxWidth="200.0" minWidth="132.0" prefHeight="31.0" prefWidth="200.0" promptText="Kelas" />
+      <JFXTextField fx:id="buku" focusColor="#37a7de" layoutX="52.0" layoutY="124.0" maxWidth="200.0" minWidth="132.0" prefHeight="31.0" prefWidth="200.0" promptText="Judul Buku" />
+      <JFXButton layoutX="105.0" layoutY="224.0" onAction="#oke" prefHeight="25.0" prefWidth="94.0" style="-fx-background-color: #37a7de;" text="OK" textFill="WHITE" />
+   </children>
+</AnchorPane>
